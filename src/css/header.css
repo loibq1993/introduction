@@ -1,0 +1,76 @@
+#header {
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 100;
+}
+
+#header .navigation {
+    background-color:rgba(38, 50, 88, 0.4);
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    transition: all 0.3s;
+    position: relative;
+    min-height: 50px;
+}
+
+#header .navbar-header {
+    float: left;
+}
+.navbar-header img {
+    max-height: 100px;
+}
+.navbar-branch {
+    margin-left: -15px;
+    padding: 0;
+    float: left;
+    height: 50px;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+#navbar {
+    height: auto;
+    margin-left: -15px;
+    padding: 0;
+    color: #777;
+    float: right;
+    position: relative;
+    min-height: 50px;
+    display: flex;
+}
+
+#navbar > .nav > li {
+    float: left;
+    display: block;
+    position: relative;
+}
+#navbar > ul > li > a {
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.0.888rem;
+    font-weight: normal;
+    padding: 25px 15px;
+    text-transform: uppercase;
+    display: block;
+    text-decoration: none;
+}
+.navbar-collapse.collapse {
+    display: block !important;
+    height: auto !important;
+    padding-bottom: 0;
+    overflow: visible !important;
+}
+.container {
+    float: none !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.container:after {
+    clear: both;
+    content: "";
+    display: block;
+}

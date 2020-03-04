@@ -1,0 +1,120 @@
+#wrapper {
+    height: 850px;
+}
+
+.hero {
+    background: url('../img/hero-bg.jpg') center center/cover no-repeat local;
+    position: relative
+}
+.hero::before {
+    content: "";
+    background-color:
+    rgba(38, 50, 88, 0.5);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.hero .container {
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.hero .personal-pic {
+    width: 220px;
+    height: 220px;
+    margin: 70px auto 0;
+    position: relative;
+}
+.hero .personal-pic:before {
+    background: red;
+    background: -webkit-linear-gradient(to top, #573d68, #bf4066);
+    background: -moz-linear-gradient(to top, #573d68, #bf4066);
+    background: -o-linear-gradient(to top, #573d68, #bf4066);
+    background: -ms-linear-gradient(to top, #573d68, #bf4066);
+    background: linear-gradient(to top, #573d68, #bf4066);
+    content: "";
+    width: 108%;
+    height: 108%;
+    position: absolute;
+    left: -4%;
+    top: -4%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+}
+.hero .personal-pic img {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    position: relative;
+    z-index: 10;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.hero h2 {
+    font-size: 3.4375rem;
+    font-weight: 200;
+    color: #fff;
+    margin: 1em 0 0.48em;
+    font-family: Montserrat;
+    text-align: center;
+    line-height: 42px;
+    font-style: normal;
+    opacity: 1;
+    visibility: visible;
+    -webkit-transition: opacity 0.24s ease-in-out;
+    -moz-transition: opacity 0.24s ease-in-out;
+    transition: opacity 0.24s ease-in-out;
+}
+
+.hero h1 {
+    margin: 0;
+    font-family: Montserrat;
+    line-height: 60px;
+    font-style: normal;
+    opacity: 1;
+    visibility: visible;
+    -webkit-transition: opacity 0.24s ease-in-out;
+    -moz-transition: opacity 0.24s ease-in-out;
+    transition: opacity 0.24s ease-in-out;
+    font-size: 72px;
+    font-size: 4.5rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.hero .social-links {
+    display: inline-block;
+    margin-top: 50px;
+}
+.hero .social-links li {
+    width: auto;
+    margin-right: 35px;
+    height: 35px;
+    float: left;
+}
+
+.hero .social-links a {
+    width: auto;
+    font-size: 25px;
+    padding-right: 2px;
+    height: 35px;
+    line-height: 35px;
+    display: block;
+    color:
+    #fff;
+    text-align: center;
+}
