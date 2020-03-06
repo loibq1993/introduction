@@ -21,17 +21,17 @@ class Header extends React.Component {
                                     <a href="#about">ABOUT</a>
                                 </li>
                                 <li>
-                                    <a href="#services">SERVICES</a>
+                                    <a href="#skill">Skill</a>
                                 </li>
-                                <li>
+                                {/* <li>
                                     <a href="#portfolio">PORTFOLIO</a>
-                                </li>
+                                </li> */}
                                 <li>
-                                    <a href="#news">NEWS</a>
+                                    <a href="#blog">NEWS</a>
                                 </li>
-                                <li>
+                                {/* <li>
                                     <a href="#testimonials">TESTIMONIALS</a>
-                                </li>
+                                </li> */}
                                 <li>
                                     <a href="#contact">CONTACT</a>
                                 </li>

@@ -11,6 +11,7 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.1",
     "@testing-library/user-event": "^7.2.1",
+    "axios": "^0.19.2",
     "eslint-config-react-app": "^5.2.0",
     "eslint-plugin-flowtype": "^3.13.0",
     "fibers": "^4.0.2",
@@ -18,9 +19,12 @@
     "node-sass": "^4.13.1",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
+    "react-html-parser": "^2.0.2",
     "react-scripts": "^3.4.0",
+    "react-slick": "^0.25.2",
     "sass": "^1.26.2",
     "sass-loader": "^8.0.2",
+    "slick-carousel": "^1.8.1",
     "typescript": "^3.8.3"
   },
   "scripts": {
@@ -43,5 +47,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/react-html-parser": "^2.0.1",
+    "@types/react-slick": "^0.23.4"
   }
 }
